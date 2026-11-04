@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: italic;
+}
+#products{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+
+}
+.divCard{
+    display: flex;
+    flex-direction: column;
+    border: solid white 6px;
+    border-radius:15px ;
+    text-align: center;
+    width: 367px;
+    gap: 10px;
+    
+}
+.img{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    transition: 0.3s;
+    border-radius: 10px;
+    
+}
+.img:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+.h1{
+    text-align: center;
+     background: rgba(255, 255, 255, 0.7);   
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    top: 0;
+    display: block;
+    color: black;
+}
+.btn {
+    background-color: rgb(4, 26, 13);
+    padding: 10px;
+    width: auto;
+    color:white;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.cartPanier{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: white solid 2px ;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 10px;
+
+
+}
+.cartPanier:hover{
+    background-color: rgb(233, 237, 237);
+    color: black;
+}
+.imgPanier{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+.panier{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+}
+#cart{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* border: white solid 2px ; */
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.h2  {
+    text-align: center;
+}
+.h3{
+    text-align: center;
+}
+.btnS{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+.moins , .plus {
+    padding: 8px;
+    border-radius: 10px;
+}
+.moins {
+    background-color: rgb(252, 154, 16);
+    color: white;
+}
+.plus {
+    background-color: green;
+    color: white;
+}
