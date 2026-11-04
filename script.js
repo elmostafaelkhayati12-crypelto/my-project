@@ -112,6 +112,7 @@ let products = [
 
             function removeFromCart(index){
                 cart.splice(index,1) ;
+                displayCart() ;
                 
             }
 
