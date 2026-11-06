@@ -2,7 +2,7 @@ let products = [
  {
     id: 1,
     name: "produit 1 ",
-    price: 50,
+    price: 5000,
     image: "images/p1.webp"
 },{
     id: 2,
