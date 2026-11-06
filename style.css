@@ -66,12 +66,17 @@
     padding: 30px;
     border-radius: 10px;
     gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 
 }
 .cartPanier:hover{
     background-color: rgb(233, 237, 237);
     color: black;
+    border: solid black 2px;
+    
 }
 .imgPanier{
     width: 100px;
@@ -107,6 +112,11 @@
     padding: 10px;
     border-radius: 10px;
 }
+.btnS:hover{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
 .moins , .plus {
     padding: 8px;
     border-radius: 10px;
@@ -115,7 +125,15 @@
     background-color: rgb(252, 154, 16);
     color: white;
 }
+.moins:hover {
+    background-color: white;
+    color: white;
+}
 .plus {
-    background-color: green;
+    background-color: rgb(29, 111, 177);
+    color: white;
+}
+.plus:hover {
+    background-color: white;
     color: white;
 }
