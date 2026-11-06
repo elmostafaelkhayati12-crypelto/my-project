@@ -79,9 +79,11 @@ let products = [
                     <p>${pro.name}</p>
                     <p>${pro.price}</p>
                     <p>sous total : ${souTotal}</p>
+                    <div class="parentbtn">
                     <button onclick="increaseQuantity(${index})" class="plus">+</button>
-                    <p> quantity :${pro.quantity}</p>
+                    <p class="pq"> quantity :${pro.quantity}</p>
                     <button onclick="decreaseQuantity(${index})" class="moins">-</button>
+                    </div>                   
                     <button onclick="removeFromCart(${index})" class="btnS">supprimer</button>
                     
                     </div>
@@ -112,8 +114,8 @@ let products = [
 
             function removeFromCart(index){
                 cart.splice(index,1) ;
-                displayCart() ;
                 
+                displayCart() ;
             }
 
               
