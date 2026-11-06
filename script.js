@@ -77,7 +77,7 @@ let products = [
                     <div class="cartPanier">
                     <img  src="${pro.image}" class="imgPanier" >
                     <p>${pro.name}</p>
-                    <p>${pro.price}</p>
+                    <p>${pro.price} DH</p>
                     <p>sous total : ${souTotal}</p>
                     <div class="parentbtn">
                     <button onclick="increaseQuantity(${index})" class="plus">+</button>
